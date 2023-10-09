@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis. com/css?family=Montserrat:500');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+
+/* Untuk Css Header Menu Bar */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #ca2909;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+
+  .logo img{
+    width: 80px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -60px;
+  }
+  
+  .nav__links a, .cta, .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: rgb(144, 144, 144);
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: #04ac04;
+  }
+  
+
+
+
+/* Untuk Css Main Content */
+.sec1 {
+  position: relative; width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+
+.sec2 {
+  margin-top: -100px;
+  position: relative; 
+  width: 100%;
+  min-height: 50vh;
+  padding-left: 100px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #141414;
+}
+
+.main_left {
+  float: left;
+}
+
+.main_left img{
+  width: 300px;
+  margin-left: 200px;
+}
+
+.main_right {
+  float: right;
+  width: 500px;
+}
+
+.main_right h1 {
+  color: white;
+}
+
+.main_right p {
+  padding-top: 10px;
+  color: white;
+  line-height: 1.7em;
+  text-align: justify;
+}
+
+.main_right a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #dded00;
+  color: black;
+  border-radius: 40px;
+  font-weight: 500; Letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.main_right a:hover {
+  background-color: #323232;
+}
+
+.content{
+  margin-top: -100px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}         
+
+.content .textBox{
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h1 {
+  color: #333;
+  font-size: 2em;
+  Line-height: 1.4em;
+  font-weight: 500;
+}
+
+.content .textBox p{
+  margin-top: 10px;
+  color: #333;
+  Line-height: 1.8em;
+  text-align: justify;
+}
+
+.content .textBox a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500; Letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.content .textBox a:hover{
+  color: white;
+  background: #01502f;
+}
+
+.imgBox img{
+  width: 600px;
+}
+
+/* Untuk Css Footer */
+footer {
+  position: relative;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ca2909;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
